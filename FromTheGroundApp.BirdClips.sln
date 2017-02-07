@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26127.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FromTheGroundApp.BirdClips.Droid", "FromTheGroundApp.BirdClips\FromTheGroundApp.BirdClips.Droid\FromTheGroundApp.BirdClips.Droid.csproj", "{07BFF7F9-B700-4B65-94B9-7862B93F7228}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTGA.BirdClips.Droid", "FromTheGroundApp.BirdClips\FromTheGroundApp.BirdClips.Droid\FTGA.BirdClips.Droid.csproj", "{07BFF7F9-B700-4B65-94B9-7862B93F7228}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FromTheGroundApp.BirdClips.iOS", "FromTheGroundApp.BirdClips\FromTheGroundApp.BirdClips.iOS\FromTheGroundApp.BirdClips.iOS.csproj", "{9E470495-347D-40B9-A3E9-BCA054CEBC6F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTGA.BirdClips.iOS", "FromTheGroundApp.BirdClips\FromTheGroundApp.BirdClips.iOS\FTGA.BirdClips.iOS.csproj", "{9E470495-347D-40B9-A3E9-BCA054CEBC6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FromTheGroundApp.BirdClips", "FromTheGroundApp.BirdClips\FromTheGroundApp.BirdClips\FromTheGroundApp.BirdClips.csproj", "{7923DD28-CD48-4F54-926B-D05E734A154D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTGA.BirdClips.Core", "FromTheGroundApp.BirdClips\FromTheGroundApp.BirdClips\FTGA.BirdClips.Core.csproj", "{7923DD28-CD48-4F54-926B-D05E734A154D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
