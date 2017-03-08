@@ -1,3 +1,4 @@
+using Akavache;
 using MvvmCross.Platform.IoC;
 
 namespace FTGA.BirdClips.Core
@@ -6,12 +7,17 @@ namespace FTGA.BirdClips.Core
     {
         public override void Initialize()
         {
+
             CreatableTypes()
                 .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
 
-            RegisterAppStart<ViewModels.HostViewModel>();
+
+            //BlobCache.ApplicationName = "BirdClips";
+
+            //Console.WriteLine("App starting");
+            RegisterAppStart<ViewModels.HomeViewModel>();
         }
     }
 }

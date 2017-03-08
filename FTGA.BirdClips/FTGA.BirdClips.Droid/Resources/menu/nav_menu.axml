@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/Icon"
+        android:title="Browse" />
+    <item
+        android:id="@+id/nav_my_lists"
+        android:icon="@drawable/Icon"
+        android:title="My Checklists" />
+    <item
+        android:id="@+id/nav_info"
+        android:icon="@drawable/Icon"
+        android:title="Info" />
+    <item
+        android:id="@+id/nav_resources"
+        android:icon="@drawable/Icon"
+        android:title="Additional Resources" />
+    <item
+        android:id="@+id/nav_faq"
+        android:icon="@drawable/Icon"
+        android:title="FAQ" />
+  </group>
+
+  <item android:title="Sub items">
+    <menu>
+      <item
+          android:icon="@drawable/Icon"
+          android:title="Sub item 1" />
+      <item
+          android:icon="@drawable/Icon"
+          android:title="Sub item 2" />
+    </menu>
+  </item>
+
+</menu>
